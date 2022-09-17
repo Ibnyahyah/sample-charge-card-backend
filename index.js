@@ -5,7 +5,7 @@ require('dotenv').load();
 var paystack = require('paystack')(process.env.PAYSTACK_SECRET_KEY);
 
 // uuid module is required to create a random reference number
-var uuid     = require('node-uuid');
+var uuid = require('node-uuid');
 
 var express =  require('express');
 var app = require('express')();
